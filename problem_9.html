@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Page</title>
+    <link rel="stylesheet" href="problem_9.css">
+</head>
+<body>
+
+    <div class="controls">
+        <select id="filterByCategory">
+            <option value="">Choose by category</option>
+            <option value="men's clothing">Men's Clothing</option>
+            <option value="women's clothing">Women's Clothing</option>
+            <option value="jewelery">Jewelry</option>
+            <option value="electronics">Electronics</option>
+        </select>
+    
+        <select id="sortByPrice">
+            <option value="">Sort by price</option>
+            <option value="price-high-to-low">High to Low</option>
+            <option value="price-low-to-high">Low to High</option>
+        </select>
+
+        <select id="sortByPopularity">
+            <option value="">Sort by popularity</option>
+            <option value="popularity-high-to-low">High to Low</option>
+            <option value="popularity-low-to-high">Low to High</option>
+        </select>
+    </div>
+    
+    <div id="products-container" class="products-container"></div>
+
+    <script src="problem_9.js"></script>
+</body>
+</html>
